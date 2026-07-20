@@ -98,3 +98,94 @@ button {
 button:hover {
     background: #1d6dd8;
 }
+
+.tracker-container {
+
+    width: 100%;
+    max-width: 420px;
+    height: 650px;
+
+    background: white;
+
+    border-radius: 14px;
+
+    overflow: hidden;
+
+    box-shadow: 0 8px 30px rgba(0,0,0,.12);
+
+}
+
+
+.tracker-header {
+
+    background: #27ae60;
+
+    color:white;
+
+    padding:16px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+}
+
+
+
+.task-input {
+
+    display:flex;
+
+    gap:8px;
+
+    padding:12px;
+
+    border-bottom:1px solid #eee;
+
+}
+
+
+
+.task-input button {
+
+    background:#27ae60;
+
+}
+
+
+
+.tasks {
+
+    padding:16px;
+
+}
+
+
+
+.task {
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:12px;
+
+    margin-bottom:10px;
+
+    background:#f7f8fa;
+
+    border-radius:10px;
+
+}
+
+
+
+.task input:checked + span {
+
+    text-decoration:line-through;
+
+    opacity:.5;
+
+}
